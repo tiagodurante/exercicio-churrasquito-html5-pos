@@ -1,0 +1,23 @@
+#banner {
+  display: none;
+}
+
+main {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.receita {
+  width: 45%;
+  float: left;
+}
+
+.receita img {
+  width: 80%;
+}
+
+.receita p {
+  display: block;
+  white-space: nowrap;
+}

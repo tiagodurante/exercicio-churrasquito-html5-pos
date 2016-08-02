@@ -1,0 +1,30 @@
+/*tags*/
+#btnmenu {
+  display: block;
+}
+
+#menu, #banner {
+  display: none;
+}
+
+/*tags*/
+nav {
+  position: relative;
+  z-index: 10000;
+  float: left;
+}
+
+nav ul li {
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+}
+
+/*classes*/
+.receita {
+  width: 100%;
+}
+
+.receita img {
+  width: 80%;
+}

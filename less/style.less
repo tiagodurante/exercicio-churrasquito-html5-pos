@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Rokkitt);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@cor1 : #ECB100;
+@cor2 : #FFC922;
+@cor3 : #F00;
+@cor4 : #B20000;
+@fonte1 : Rokkitt, Tahoma;
+@fonte2 : "Open Sans", Tahoma;
+@tam1 : 3em;
+@tam2 : 1.2em;
+
+.sombra { 
+	text-shadow: 2px 2px 2px #333;
+	box-shadow: 2px 2px 2px #333;
+}
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family: @fonte2;
+}
+
+h1 {
+	font: @tam1 @fonte1;
+	color: @cor1;
+	text-align: center;
+	.sombra;
+	padding: 20px;
+}
+
+.tamanho {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+header, footer {
+	width: 100%;
+	background: @cor2;
+	text-align: center;
+	padding: 20px;
+	.tamanho;
+}
+
+#banner img, .receita img {
+	width: 100%;
+}
+
+nav { 
+	width: 100%;
+	.tamanho;
+	padding: 20px;
+	font: @tam2 @fonte1;
+	background: linear-gradient(to bottom,@cor1,@cor2);
+	text-align: center;
+}
+
+.no-cssgradients nav {
+	background: @cor1;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+
+nav ul li a {
+	font: @tam2 @fonte1;
+	color: #fff;
+	padding: 10px;
+	margin: 10px;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: @cor1;
+	color: #000;
+}
+
+.receita {
+	width: 23%;
+	margin: 10px;
+	padding: 10px;
+	.tamanho;
+	text-align: center;
+	float: left;
+	/* border: 1px solid #ccc;
+	border-radius: 5px; */
+}
+
+.receita img {
+	border: 10px solid #fff;
+	.sombra;
+}
+
+.clear {
+	clear: both;
+}
+
+.btn {
+	margin: 20px;
+	background: @cor3;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	background: @cor4;
+}
+
+p {
+	margin: 20px;
+}

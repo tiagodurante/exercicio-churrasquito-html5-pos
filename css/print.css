@@ -1,0 +1,7 @@
+nav, #banner, .btn, footer a {
+  display:none;
+}
+
+header .img {
+  width: 80%;
+}
